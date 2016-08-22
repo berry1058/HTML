@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    
+     <h1>Class Registration!!!</h1>
+    <hr>
+    <p>All Students please enter in all information to have a flawless registration. </p>
+    <p>However quick you enter in you information will determine housing assignment preference.</p>
+    <p>Lets all have a great year!!!</p>
+
+
+    <form name="myForm" action="#">
+      NAME: <input type="text" name="name" />
+      <br>
+      PHONE: <input type="text" name="phone" />
+      <br>
+       SEMESTER <select name="semester">
+        <option value="Fall">Fall</option>
+        <option value="Spring">Spring</option>
+        <option value="Summer">Summer</option>
+        </select>
+      <br>
+      Home City and State: <input type="text" name="phone" />
+      <br>
+     
+      <input type="submit" />
+    </form>
+  </body>
+</html>
